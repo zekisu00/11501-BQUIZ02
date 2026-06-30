@@ -38,7 +38,6 @@ function login(){
 
     // 2. 第一階段：檢查帳號是否存在
     $.get("./api/chk_acc.php", user, (res) => {
-        console.log(res)
         // 如果後端回傳數值 > 0，代表帳號存在
         if(parseInt(res) > 0){
             
