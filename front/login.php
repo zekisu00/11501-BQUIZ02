@@ -38,6 +38,7 @@ function login(){
 
     // 2. 第一階段：檢查帳號是否存在
     $.get("./api/chk_acc.php", user, (res) => {
+        console.log(res)
         // 如果後端回傳數值 > 0，代表帳號存在
         if(parseInt(res) > 0){
             
@@ -65,7 +66,7 @@ function login(){
 }
 </script>
 
-/*
+<!--
 程式邏輯架構說明
 這個登入流程透過 AJAX 與後端分工合作，為了讓你更好理解，這裡描述其背後的邏輯流程：
 
@@ -83,4 +84,4 @@ function login(){
 
 驗證機制：實際應用中，後端 chk_pw.php 在比對密碼時，必須使用 password_verify() 等函式，
 將輸入的密碼與資料庫中加密後的 Hash 值比對，絕對不要將密碼以明碼存放在資料庫中。
-*/
+-->

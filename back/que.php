@@ -1,6 +1,8 @@
-/* 頁面：新增問卷功能
- * 此頁面提供一個動態表單，使用者可輸入問卷題目及多個選項，並透過 JavaScript 實時增加選項欄位。
- */
+<?php
+//頁面：新增問卷功能
+//此頁面提供一個動態表單，使用者可輸入問卷題目及多個選項，並透過 JavaScript 實時增加選項欄位。
+?>
+
 <fieldset>
     <legend>新增問卷</legend>
     <form action="./api/add_que.php" method="post">

@@ -1,7 +1,7 @@
-/* 檔案：api/get_list.php
- * 功能：根據類別 (type) 查詢對應的所有文章標題，並生成點擊後觸發 JavaScript 的超連結列表。
- */
-<?php 
+<?php
+//檔案：api/get_list.php
+//功能：根據類別 (type) 查詢對應的所有文章標題，並生成點擊後觸發 JavaScript 的超連結列表。
+
 // 包含資料庫設定檔以存取 $News 物件
 include_once "db.php";
 

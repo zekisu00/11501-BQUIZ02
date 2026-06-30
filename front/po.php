@@ -66,7 +66,7 @@ function getPost(id){
 }
 </script>
 
-/*
+<!--
 核心運作邏輯分析
 這段程式碼運用了前後端分離 (Partial Rendering) 的概念，這在現代網頁開發中非常實用：
 
@@ -82,4 +82,4 @@ getPost 負責抓取「詳細內容」（使用者點擊標題後觸發）。
 溫馨提示：
 你的這套架構非常完整，但要注意的是：在 get_posts.php 回傳的 HTML 中，
 必須確保文章標題的連結是呼叫 onclick="getPost(id)"，這樣才能正確連接到這段 JavaScript 函數。
-*/
+-->

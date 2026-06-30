@@ -1,7 +1,7 @@
-/* 檔案：api/get_news.php
- * 功能：讀取並顯示指定文章的內容，透過 nl2br 函數將資料庫中的換行符號轉換為 HTML 的 <br> 標籤。
- */
 <?php 
+//檔案：api/get_news.php
+//功能：讀取並顯示指定文章的內容，透過 nl2br 函數將資料庫中的換行符號轉換為 HTML 的 <br> 標籤。
+
 // 包含資料庫設定檔以存取 $News 物件
 include_once "db.php";
 

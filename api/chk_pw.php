@@ -1,7 +1,7 @@
-/* 檔案：api/chk_pw.php
- * 功能：驗證會員登入密碼是否正確，並管理登入狀態 (Session)。
- */
 <?php 
+//檔案：api/chk_pw.php
+//功能：驗證會員登入密碼是否正確，並管理登入狀態 (Session)。
+
 // 包含資料庫設定檔以存取 $Mem 物件
 include_once "db.php";
 
